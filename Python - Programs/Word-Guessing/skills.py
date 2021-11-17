@@ -1,5 +1,7 @@
 import random as rd
 import food as fd
+import os 
+import sys
 
 # Random Fruits word
 def random_fruit():
