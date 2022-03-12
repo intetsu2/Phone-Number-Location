@@ -7,6 +7,6 @@
 - The you will the Location and Carrier
 
 ## Results should look similar to this after
-![Terminal Example](terminal_screenshot.jpg)
+![Terminal Example](Assets/terminal_screenshot.jpg)
 
 ### NOTE: the carrier results might return not found due to carrier data not being specified.
