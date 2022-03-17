@@ -1,10 +1,11 @@
 # State and Carrier Finder
-### Small python project that finds the state and the carrier of a phone number.
+### Small python project that finds the state or a country and the carrier of a phone number.
 
 ## Instructions:
+- Clone the repository
 - Run the code
 - Enter phone number with area code included
-- The you will the Location and Carrier
+- Then you will see the Location and Carrier
 
 ## Results should look similar to this after
 ![Terminal Example](Assets/terminal_screenshot.jpg)
