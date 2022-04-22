@@ -1,5 +1,5 @@
 # State and Carrier Finder
-### Small python project that finds the state or a country and the carrier of a phone number.
+### Small python project that finds the state or country and the carrier of a phone number.
 
 ## Instructions:
 - Clone the repository
