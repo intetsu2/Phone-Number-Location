@@ -13,9 +13,16 @@ ser_num = phonenumbers.parse(num, "RO")
 # location and carrier
 location = geocoder.description_for_number(p_num, "en")
 carrier = carrier.name_for_number(ser_num, "en")
-if carrier == "":
-    carrier = 'Not found'
 
-# printing process
-print(f'{num} is located in {location}')
-print(f'The carrier of {num} is {carrier}')
+# if nothing is found
+if location == "" and carrier == "":
+    print('Sorry, there is no location and carrier associated with this phone number')
+    print('The phone number probably does not exist, since nothing seems to be associated with it.')   
+elif carrier != "" and location != "":
+    print(f'{num} is located in {location}')
+    print(f'The carrier of {num} is {carrier}')
+else:
+    if carrier == "" and location != "":
+        print(f'{num} is located in {location}')
+        carrier = 'Not Found'
+        print(f'The carrier of {num} is {carrier}')

@@ -8,6 +8,8 @@
 - Then you will see the Location and Carrier
 
 ## Results should look similar to this after
-![Terminal Example](Assets/terminal_screenshot.jpg)
+The number is not realy, it's just for an example.
+
+![Terminal Example](Assets/example_screen.jpg)
 
 ### NOTE: the carrier results might return not found due to carrier data not being specified.
