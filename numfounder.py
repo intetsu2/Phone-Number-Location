@@ -6,6 +6,8 @@ from phonenumbers import carrier
 from phonenumbers import carrierdata
 
 # variables neede
+print('\n WELCOME TO LOCATION AND CARRIER \v')
+
 num = input("Enter number with area code: ") # asks the user number with it's area code
 p_num = phonenumbers.parse(num, "CH")
 ser_num = phonenumbers.parse(num, "RO")
