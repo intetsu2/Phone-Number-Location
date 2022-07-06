@@ -1,4 +1,4 @@
-# Phone Number State and Carrier Finder
+# Phone Number State and Carrier Locater
 Small python project that finds the state or country and the carrier of a phone number.
 
 ### 📰 Instructions:
