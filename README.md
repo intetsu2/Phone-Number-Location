@@ -8,7 +8,7 @@ Small python project that finds the state or country and the carrier of a phone 
 - Then you will see the Location and Carrier
 ---
 ### 🖼️ Results should look similar to this after:
-The number is not realy, it's just for i.e.
+The number is not really, it's just for i.e.
 ![Terminal Example](Assets/example_screen.jpg)
 
 ### NOTE: the carrier results might return not found due to carrier data not being specified.
